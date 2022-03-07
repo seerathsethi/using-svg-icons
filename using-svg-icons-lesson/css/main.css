@@ -1,4 +1,4 @@
-html{
+html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -11,7 +11,7 @@ html{
 }
 
 ul {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin: 0;
@@ -33,7 +33,7 @@ a:focus {
 .icon {
   position: relative;
   height: 8em;
-  width:8em;
+  width: 8em;
 }
 
 .icon svg {

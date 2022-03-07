@@ -7,7 +7,7 @@ html{
 }
 
 *, *::after, *::before {
-  box-sizing:
+  box-sizing: inherit;
 }
 
 ul {
@@ -41,6 +41,6 @@ a:focus {
   top: 0;
   position: absolute;
   fill: currentColor;
-  height: 100;
-  width: 100;
+  height: 100%;
+  width: 100%;
 }
